@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<script>
+    var a=prompt('Enter a number.')
+    var b=prompt('Enter another number.')
+    var c=prompt('Enter the case value( an integer from 1 to 4).')
+    if(c==1){
+        res=a+b
+        console.log(parseFloat(res))
+    }
+    else if(c==2){
+        res=a-b
+        console.log(parseFloat(res))
+    }
+    else if(c==3){
+        res=a*b
+        console.log(parseFloat(res))
+    }
+    else if(c==4){
+        if(b==0){
+            console.log('Undefined')
+        }
+        else{
+            res=a/b
+            console.log(parseFloat(res))
+        }
+    }
+    else{
+        
+        console.log('Invalid case value')
+    }
+
+
+</script>    
+</body>
+</html>
