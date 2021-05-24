@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+</head>
+<style>
+    h1,p{
+        color:red;
+        /*Grouping the selectors for (d) part of the question.*/
+    }
+</style>
+<body>
+    
+    <p style="color:red;text-align:center">Hello World.</p>  <!--Parts(b)&(c) -->
+    <hr>
+    <!--Part(d) -->
+    <h1>Web Development</h1>
+    <p>Sun rises in the east.</p>
+    <p>This is a text.</p>
+    <hr>
+    <!--Parts(e)&(f)-->
+    <h1 style="font-family: courier;">Font of Heading is Courier.</h1>
+    <p style="color: red;">Sun sets in the west.</p> <!--changing text color to red using style attributes.-->
+    
+</body>
+</html>
