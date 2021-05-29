@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="abc.css">
+</head>
+
+<body style="background-image: url(Chess_board_opening_staunton.jpg);">
+    <span class="a">
+
+        <a href="Homepage.html">
+            <p style="font-size: 300%;">Home Page </p>
+        </a>
+        <a href="Signup.html">
+            <p style="font-size: 300%;">Signup</p>
+        </a>
+        <a href="Contact us.html">
+            <p style="font-size: 300%;">Contact Us</p>
+        </a>
+    </span>
+    <br>
+    <!--creating a box-->
+    <div class="b">
+        <img src="Chess.png" style="height:100px; width:100px;float: right;">
+        <p style="font-size: 200%;">The earliest texts referring to the origins of chess date from the beginning of the
+            7th century. Three are written in Pahlavi (Middle Persian) and one, the Harshacharita, is in
+            Sanskrit. One of these texts, the Chatrang-namak, represents one of the earliest written accounts of
+            chess. The narrator Bozorgmehr explains that Chatrang, the Pahlavi word for chess, was introduced to Persia
+            by 'Dewasarm, a great ruler of India' during the reign of Khosrow I.
+            <br>
+
+            The oldest known chess manual was in Arabic and dates to about 840, written by al-Adli ar-Rumi (800–870), a
+            renowned Arab chess player, titled Kitab ash-shatranj (The Book Of Chess). This is a lost manuscript, but is
+            referenced in later works. Here also, al-Adli attributes the origins of Persian chess to India, along
+            with the eighth-century collection of fables Kalīla wa-Dimna. By the twentieth century, a substantial
+            consensus developed regarding chess's origins in northwest India in the early 7th century.
+            More recently, this consensus has been the subject of further scrutiny.</p>
+
+    </div>
+    <footer>Let's go.</footer>
+
+</body>
+
+</html>
