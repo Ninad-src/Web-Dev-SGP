@@ -1,0 +1,29 @@
+.a{
+    background-color: orange;
+    display: inline-block;
+    position: relative;
+    left:30px;
+
+}
+.b{
+    background-color: black;
+    color: white; 
+    padding: 5px;
+    height:200px;
+    width: 800px;
+    position: relative;
+    margin: 25px;
+   
+    overflow: scroll;
+}
+footer{
+    position: relative;
+    bottom: 0%;
+    background-color: lightcyan;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color:black
+}
+
+
