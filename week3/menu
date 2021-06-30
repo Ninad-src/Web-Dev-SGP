@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <title>Menu</title>
+</head>
+<style>
+    table {
+        border: 1px solid black;
+        padding: 10px;
+
+        width: 500px;
+    }
+
+    td,th {
+
+        border-collapse: separate;
+        height: 100px;
+        
+    }
+
+    tr:nth-child(even) {
+        background-color: orange;
+        font-family: 'Yellowtail', cursive;
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    tr:nth-child(odd) {
+        background-color: yellow;
+        font-family: 'Yellowtail', cursive;
+        font-size: 20px;
+        padding: 2px;
+    }
+    li{
+        font-family: 'Akaya Kanadaka', cursive;
+        font-size: 20px;
+        
+    }
+    img{
+        margin-left: 25%;
+        height: 200px;
+        width: 50%;
+    }
+</style>
+
+<body style="background-color:aqua;">
+    <hr>
+    <img src="https://www.whiskaffair.com/wp-content/uploads/2020/09/Aloo-Tikki-2-3.jpg" alt="aloo tikki">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/CafeMia.jpg" alt="gelato">
+    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/03/hakka-noodles-recipe-500x500.jpg" alt="hakka noodles">
+    <table style="margin-left:33%;margin-right: 33%;">
+        <tr>
+            <th>Dish</th>
+            <th>Price</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Aloo tikki</td>
+            <td>20</td>
+            <td>It is made of boiled potatoes, peas, and various curry spices.</td>
+        </tr>
+        <tr>
+            <td>Gelato</td>
+            <td>25</td>
+            <td>Gelato is a frozen dessert of Italian origin. It is made with a base of
+                3.25% butterfat whole milk and sugar.</td>
+        </tr>
+        <tr>
+            <td>Hakka noodles</td>
+            <td>30</td>
+            <td>Boiled noodles are stir fried with sauces and vegetables or meats. A hakka noodle is made from
+                unleavened dough( rice or wheat flour) that is cooked in a boiling liquid.</td>
+        </tr>
+        <tr>
+            <td>Tacos</td>
+            <td>35</td>
+            <td>A taco is a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with
+                a filling. The tortilla is then folded around the filling and eaten by hand. </td>
+        </tr>
+        <tr>
+            <td>Hummus</td>
+            <td>40</td>
+            <td>Hummus is a Middle Eastern dip, spread, or savory dish made from cooked, mashed chickpeas blended with
+                tahini, lemon juice, and garlic.</td>
+        </tr>
+        <tr>
+            <td>Soupe à l'oignon</td>
+            <td>45</td>
+            <td>French onion soup is a type of soup usually based on meat stock and onions, and often served gratinéed
+                with croutons or a larger piece of bread covered with cheese floating on top.</td>
+        </tr>
+    </table>
+    <ul>
+        
+        <li>Indian- Aloo Tikki</li>
+        <li>Italian- Gelato</li>
+        <li>Chinese- Hakka noodles</li>
+        <li>Mexican- Tacos</li>
+        <li>Arabic-Hummus</li>
+        <li>French- Soupe à l'oignon</li>
+        
+    </ul>
+    <img src="https://www.simplyrecipes.com/thmb/6hCSYU4xi-0taIEXwtZNZCydL34=/3190x2127/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Veggie-Tacos-LEAD-2-2fa9781c94da4b9797af48af47313854.jpg" alt="tacos">
+    <img src="https://cookieandkate.com/images/2018/05/best-hummus.jpg" alt="hummus">
+    <img src="https://ca-times.brightspotcdn.com/dims4/default/fbdb510/2147483647/strip/true/crop/1154x721+63+0/resize/1044x652!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F62%2F5d%2Ffe1b17ccdd32e48540720225cc19%2Fkikyd4nc-recipe-db" alt="Soupe à l'oignon">
+    <hr>
+    <a href="https://www.google.com">Google</a>
+</body>
+
+</html>
